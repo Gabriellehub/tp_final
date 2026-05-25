@@ -31,6 +31,15 @@ body {
     element
 ----------------------------------------------------------------------------*/
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------
+    components
+----------------------------------------------------------------------------*/
+
 .header .wrapper{
     display: flex;
     align-items: center;
@@ -42,7 +51,25 @@ body {
     list-style: none;
     gap: 30px;
     cursor: pointer;
+    margin: none;
 
+}
+
+
+.header .logo{
+    text-decoration: none;
+    font:  2.25rem "Bebas Neue", sans-serif;
+    color: #2F7326;
+}
+
+.menu li{
+     font:  bold 1.125rem "Montserrat", sans-serif;
+     color: black;
+}
+
+.menu li:hover{
+    color: #0C295C;
+    text-decoration: underline;
 }
 
 
@@ -52,13 +79,26 @@ body {
 }
 
 
+
+
 .equipe{
-    background: url(../images/image_equipe\ 1.png);
+    background: url(../images/image_equipe\ 1.png) no-repeat center/cover;
 }
 
-.equipe article{
+
+.equipe .description{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    flex-direction: column;
+    
 }
 
+.produits .raquette{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.map{
+    height: 935px;
+    width: 1440px;
+}

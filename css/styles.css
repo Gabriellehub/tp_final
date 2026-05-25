@@ -46,6 +46,10 @@ h1{
     text-align: center;
 }
 
+h2{
+    font: light 1.875rem "Montserrat", sans-serif;
+}
+
 /*----------------------------------------------------------------------------
     components
 ----------------------------------------------------------------------------*/
@@ -91,7 +95,28 @@ h1{
     align-items: center;
 }
 
+.infolettre{
+    background-color: #DDE255;
+    padding: 40px 0;
+}
 
+.infolettre h2{
+    
+    font: lighter 1.875rem "Montserrat", sans-serif;
+}
+
+.infolettre .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infolettre button{
+    background-color: #0C295C;
+    color: white;
+    font:  bold 1.125rem "Montserrat", sans-serif;
+    padding: 10px 30px;
+}
 
 
 .equipe{

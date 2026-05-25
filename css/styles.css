@@ -82,10 +82,12 @@ h2{
 }
 
 .menu li:hover{
-    color: #0C295C;
     text-decoration: underline;
 }
 
+.menu li a:hover{
+    color: #0C295C;
+}
 
 .hero{
     background: url(../images/hero\ 1.png) no-repeat center/cover;
@@ -137,6 +139,6 @@ h2{
 }
 
 .map{
-    height: 935px;
-    width: 1440px;
+    background: url(../images/map.png) no-repeat center/cover;
+    height: 508px;
 }

@@ -47,7 +47,8 @@ h1{
 }
 
 h2{
-    font: light 1.875rem "Montserrat", sans-serif;
+    font: 3rem "Bebas Neue", sans-serif;
+    color: #2F7326;
 }
 
 /*----------------------------------------------------------------------------
@@ -102,7 +103,7 @@ h2{
     padding: 40px 0;
 }
 
-.infolettre h2{
+.infolettre p{
     
     font: lighter 1.875rem "Montserrat", sans-serif;
 }
@@ -129,6 +130,12 @@ h2{
 .equipe .description{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.produits .vetement{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     
 }
 

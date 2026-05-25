@@ -1,0 +1,64 @@
+/*----------------------------------------------------------------------------
+    generic
+----------------------------------------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*----------------------------------------------------------------------------
+    base
+----------------------------------------------------------------------------*/
+
+body {
+    font: 1.125rem "Montserrat", sans-serif;
+}
+
+/*----------------------------------------------------------------------------
+    mise en page
+----------------------------------------------------------------------------*/
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------
+    element
+----------------------------------------------------------------------------*/
+
+.header .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+
+}
+
+
+.hero{
+    background: url(../images/hero\ 1.png) no-repeat center/cover;
+    height: 395px;
+}
+
+
+.equipe{
+    background: url(../images/image_equipe\ 1.png);
+}
+
+.equipe article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+}
+

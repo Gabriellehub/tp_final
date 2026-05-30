@@ -31,12 +31,12 @@ body {
     element
 ----------------------------------------------------------------------------*/
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
 
-h1{
+h1 {
     font: bold 3.4375rem "Montserrat", sans-serif;
     color: #333;
     display: flex;
@@ -46,7 +46,7 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     font: 3rem "Bebas Neue", sans-serif;
     color: #2F7326;
 }
@@ -55,7 +55,7 @@ h2{
     components
 ----------------------------------------------------------------------------*/
 
-.header .wrapper{
+.header .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,26 +71,26 @@ h2{
 }
 
 
-.header .logo{
+.header .logo {
     text-decoration: none;
-    font:  2.25rem "Bebas Neue", sans-serif;
+    font: 2.25rem "Bebas Neue", sans-serif;
     color: #2F7326;
 }
 
-.menu li{
-     font:  bold 1.125rem "Montserrat", sans-serif;
-     color: black;
+.menu li {
+    font: bold 1.125rem "Montserrat", sans-serif;
+    color: black;
 }
 
-.menu li:hover{
+.menu li:hover {
     text-decoration: underline;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: #0C295C;
 }
 
-.hero{
+.hero {
     background: url(../images/hero\ 1.png) no-repeat center/cover;
     height: 395px;
     display: flex;
@@ -98,54 +98,91 @@ h2{
     align-items: center;
 }
 
-.infolettre{
+.infolettre {
     background-color: #DDE255;
     padding: 40px 0;
 }
 
-.infolettre p{
-    
+.infolettre p {
+
     font: lighter 1.875rem "Montserrat", sans-serif;
 }
 
-.infolettre .wrapper{
+.infolettre .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.infolettre button{
+.infolettre button {
     background-color: #0C295C;
     color: white;
-    font:  bold 1.125rem "Montserrat", sans-serif;
+    font: bold 1.125rem "Montserrat", sans-serif;
     padding: 10px 30px;
 }
 
 
-.equipe{
+.equipe {
     background: url(../images/image_equipe\ 1.png) no-repeat center/cover;
 }
 
+.presentation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
 
-.equipe .description{
+.presentation h2 {
+    margin: 0;
+    padding: 45px 0;
+}
+
+.presentation p {
+    margin: 0;
+    width: 955px;
+    padding-bottom: 45px;
+}
+
+.equipe .description {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+
 }
 
-.produits .vetement{
+.produits .vetement {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+
 }
 
-.produits .raquette{
+.produits .raquette {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+
 }
 
-.map{
+
+.map {
     background: url(../images/map.png) no-repeat center/cover;
     height: 508px;
+}
+
+.footer img {
+    width: 40px;
+}
+
+.footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+    margin: none;
+
 }

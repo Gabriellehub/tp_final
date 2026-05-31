@@ -55,6 +55,10 @@ h2 {
     color: #2F7326;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*----------------------------------------------------------------------------
     components
 ----------------------------------------------------------------------------*/
@@ -167,11 +171,43 @@ h2 {
 
 }
 
+.employer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.employer h3 {
+    color: #2F7326;
+    text-transform: uppercase;
+    font: 2.25rem "Bebas Neue", sans-serif;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact button {
+    width: 280px;
+    height: 55px;
+    background-color: #0C295C;
+    color: white;
+
+}
+
 
 .map {
     background: url(../images/map.png) no-repeat center/cover;
     height: 508px;
+    margin: 40px 0;
+
 }
+
 
 .footer img {
     width: 40px;
@@ -192,8 +228,10 @@ h2 {
 
 }
 
+
 .footer {
     background-color: #2F7326;
+    color: white;
 }
 
 /* ----- page liste -----*/
@@ -201,19 +239,30 @@ h2 {
 .carte {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .Brassière {
     width: 600px;
+    padding-top: 40px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    width: 600px;
+}
+
+.info p {
+    line-height: 200%;
+}
+
+.prix {
+    font-size: 1.5625rem;
 }
 
 .equipement {
-    background-color: #E9F0E0;
+    background: url(../images/image_equipe\ 1.png) no-repeat center/cover;
 
 }
 

@@ -244,11 +244,13 @@ button:hover {
 
 .carte h3 {
     font: 2.25rem "Bebas Neue", sans-serif;
+
 }
 
 .Brassière {
     width: 600px;
-    padding-top: 40px;
+
+
 }
 
 .info {
@@ -268,6 +270,10 @@ button:hover {
 .equipement {
     background: url(../images/image_equipe\ 1.png) no-repeat center/cover;
 
+}
+
+.equipement h2 {
+    padding-top: 40px;
 }
 
 .articles {

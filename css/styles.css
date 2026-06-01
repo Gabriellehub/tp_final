@@ -62,6 +62,7 @@ h3 {
 
 button:hover {
     cursor: pointer;
+
 }
 
 /*----------------------------------------------------------------------------
@@ -133,6 +134,12 @@ button:hover {
     color: white;
     font: bold 1.125rem "Montserrat", sans-serif;
     padding: 10px 30px;
+    border: none;
+}
+
+.infolettre button:hover {
+    background-color: #2F7326;
+
 }
 
 
@@ -176,6 +183,29 @@ button:hover {
 
 }
 
+.produits button {
+    background-color: white;
+    color: #0C295C;
+    border: 2px solid #0C295C;
+    font: bold 1.5rem "Montserrat", sans-serif;
+    padding: 15px 40px;
+}
+
+.produits button:hover {
+    background-color: white;
+    color: #2F7326;
+    border: 2px solid #2F7326;
+
+}
+
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
 .employer {
     display: flex;
     flex-direction: column;
@@ -202,7 +232,13 @@ button:hover {
     height: 55px;
     background-color: #0C295C;
     color: white;
+    border: none;
+}
 
+.contact button:hover {
+    background-color: #2F7326;
+    color: white;
+    border: none;
 }
 
 
@@ -314,6 +350,13 @@ button:hover {
     height: 55px;
     background-color: #0C295C;
     color: white;
+    border: none;
+}
+
+.info2 button:hover {
+    background-color: #2F7326;
+    color: white;
+
 }
 
 .presentation {
@@ -331,8 +374,14 @@ button:hover {
 
 .proposition {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 40px;
+    gap: 20px;
+}
+
+.proposition img {
+
+    width: 590px;
 }
 
 .proposition p {

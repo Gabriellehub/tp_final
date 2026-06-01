@@ -55,6 +55,11 @@ h2 {
     color: #2F7326;
 }
 
+h3 {
+    color: #2F7326;
+    font: 2.25rem "Bebas Neue", sans-serif;
+}
+
 button:hover {
     cursor: pointer;
 }
@@ -180,7 +185,7 @@ button:hover {
 
 .employer h3 {
     color: #2F7326;
-    text-transform: uppercase;
+
     font: 2.25rem "Bebas Neue", sans-serif;
     padding-top: 40px;
     margin: 0;
@@ -296,5 +301,41 @@ button:hover {
 
 .soulier {
     width: 700px;
+
+}
+
+.info2 {
+    width: 400px;
+    text-align: center;
+}
+
+.info2 button {
+    width: 280px;
+    height: 55px;
+    background-color: #0C295C;
+    color: white;
+}
+
+.presentation {
+    text-align: start;
+    line-height: 200%;
+}
+
+.texte {
+    background: url(../images/image_equipe\ 1.png) no-repeat center/cover;
+}
+
+.fiche {
+    padding: 40px 0;
+}
+
+.proposition {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.proposition p {
+    text-align: center;
 
 }

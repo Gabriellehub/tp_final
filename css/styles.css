@@ -287,3 +287,14 @@ button:hover {
 }
 
 /* ----- page fiche -----*/
+
+.nike {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.soulier {
+    width: 700px;
+
+}

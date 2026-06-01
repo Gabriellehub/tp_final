@@ -242,6 +242,10 @@ button:hover {
     gap: 20px;
 }
 
+.carte h3 {
+    font: 2.25rem "Bebas Neue", sans-serif;
+}
+
 .Brassière {
     width: 600px;
     padding-top: 40px;
